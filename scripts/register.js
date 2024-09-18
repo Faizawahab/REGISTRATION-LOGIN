@@ -5,13 +5,6 @@ registerForm.addEventListener('submit',function (event) {
     event.preventDefault(); 
     // collect form data
     const formData = new FormData(registerForm);
-    // console.log(
-    //     formData.get('username'),
-    //     formData.get('email'), 
-    //     formData.get('password')
-    // );
-    // send data to backens
-    // send success message to user
     const messageH1 = document.querySelector('#message');
     messageH1.textContent ='Account registered sucessfully';
     
